@@ -1,16 +1,15 @@
 function drawChristmasTree(size) {
-
   for (var i = 0; i < size; i++) {
-  var star = '';
+    var line = '';
       
     for (var j = 0; j < (size - (i + 1)) ; j++) {
-         star += ' ';
+         line += ' ';
     } 
 
     for (var j = 0; j < (i + 1) * 2 - 1; j++) {
-         star += '*';
+         line += '*';
     }
-    console.log(star);
+    console.log(line);
   }
 }
 
